@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "EHRS-App"
+  annotations:
+    github.com/project-slug: hirveakshata/aws-ec2-template #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: 'IA for Instance Automation'
+  description: An example of a Instance Creation.
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: production
